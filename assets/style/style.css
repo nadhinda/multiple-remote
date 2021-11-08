@@ -1,0 +1,134 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+nav 
+{
+    background-color: #3cc705;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a
+{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover
+{
+    font-weight: bold;
+}
+
+nav li
+{
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+}
+
+header
+{
+    display: inline;
+}
+
+.profile header
+{
+    text-align: center;
+}
+
+.featured-image {
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+body
+{
+    font-family: century gothic;
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+    padding: 20px;
+    overflow: auto;
+}
+
+#content 
+{
+    float: left;
+    width: 75%;
+}
+
+aside 
+{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+iframe
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h2, h3
+{
+    color: #43dd06
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #43dd06;
+    text-align: center;
+    color: white;
+}
+
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pad
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+footer
+{
+    padding: 20px;
+    color: white;
+    background-color: #3cc705;
+    text-align: center;
+    font-weight: bold;
+    overflow: auto;
+}
+
+@media screen and (max-width: 513px) 
+{
+    #content,
+    aside
+    {
+        width: 100%;
+        padding: 0px;
+    }
+}
